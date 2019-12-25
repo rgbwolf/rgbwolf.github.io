@@ -1,4 +1,10 @@
 import React from 'react'
-const App = () => <p> hello world </p>
+import { CssBaseline, Container } from '@material-ui/core'
+const App = () => (
+	<Container>
+		<CssBaseline />
+		<p> hello world </p>
+	</Container>
+)
 
 export default App
