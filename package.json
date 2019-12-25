@@ -1,32 +1,44 @@
 {
-	"name": "rgbwolf.github.io",
-	"version": "0.1.0",
-	"private": false,
-	"homepage": "https://rgbwolf.github.io/",
-	"dependencies": {
-		"cra-template": "1.0.0",
-		"react": "16.12.0",
-		"react-dom": "16.12.0",
-		"react-scripts": "3.3.0"
-	},
-	"scripts": {
-		"preinstall": "npx use-yarn",
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test"
-	},
-	"prettier": {
-		"arrowParens": "avoid",
-		"bracketSpacing": true,
-		"jsxBracketSameLine": false,
-		"jsxSingleQuote": false,
-		"printWidth": 100,
-		"proseWrap": "preserve",
-		"requirePragma": false,
-		"tabWidth": 4,
-		"useTabs": true,
-		"singleQuote": true,
-		"trailingComma": "es5",
-		"semi": false
-	}
+  "name": "rgbwolf.github.io",
+  "version": "0.1.0",
+  "private": false,
+  "homepage": "https://rgbwolf.github.io/",
+  "dependencies": {
+    "cra-template": "1.0.0",
+    "react": "16.12.0",
+    "react-dom": "16.12.0",
+    "react-scripts": "3.3.0"
+  },
+  "scripts": {
+    "preinstall": "npx use-yarn",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "printWidth": 100,
+    "proseWrap": "preserve",
+    "requirePragma": false,
+    "tabWidth": 4,
+    "useTabs": true,
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "semi": false
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
