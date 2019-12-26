@@ -88,7 +88,7 @@ typings/
 .nuxt
 
 # react / gatsby 
-public/
+build/
 
 # vuepress build output
 .vuepress/dist
