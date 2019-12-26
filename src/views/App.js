@@ -1,12 +1,20 @@
 import React from 'react'
-import { CssBaseline, Container } from '@material-ui/core'
+import {
+	CssBaseline,
+	Container,
+	ThemeProvider,
+	createMuiTheme,
+	responsiveFontSizes,
+} from '@material-ui/core'
 import { Hero, CurriculumVitae } from '../components'
 const App = () => (
-	<Container>
-		<CssBaseline />
-		<Hero />
-		<CurriculumVitae />
-	</Container>
+	<ThemeProvider theme={responsiveFontSizes(createMuiTheme())}>
+		<Container>
+			<CssBaseline />
+			<Hero />
+			<CurriculumVitae />
+		</Container>
+	</ThemeProvider>
 )
 
 export default App
